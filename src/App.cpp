@@ -43,7 +43,10 @@ int main(void) {
     1. stride->size of each vertex(it going to point it out the buffer range suppose the it is 32 bits so it knows after 32 bits the next the vertex will start)
     2. pointer -> offset of the attributes(means for the position the offdet will be zero[12 bits]-textture co-ordinate[12 bits]-vertex Norn[20 bits])
     */
-// glAccum
+    /*
+    mostly we are going to work with the - 1. vertex shader and 2. fragment shader
+    other - 3. geometry shader 4.compute shader
+    */
     glfwSwapBuffers(window);
     glfwPollEvents();
   }
